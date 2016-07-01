@@ -1,10 +1,46 @@
+/*=============================================================
+slideshow
+====*/
+html,body {
+	margin: 0;
+	padding: 0;
+}
+.slider {
+	width: 1024px;
+	margin: 2em auto;
+    border: 2px solid white;
+    border-radius: 10px;
+	
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+/*======================h===========================*/
+
+
+
+
 .class{
     width:100%;
     height: 300px;
 }
-.myslides{
-    width: 100px;
-    height: 300px;
+
 }
 body{
 	
@@ -78,8 +114,11 @@ h2{
 }
 input{
 	margin: 20px;
+    border-radius: 10px;
 }
-
+#submit{
+    border-radius: 10px;
+}
 footer{
 	border:1px solid whitesmoke;
 	border-radius: 10px;
