@@ -57,9 +57,13 @@ h1{
 .top{
 	font-size: 20px;
     padding-left:100px;
+    
 }
 .nav{
     padding-right: 80px;
+    height: 70px;
+    width: 100px;
+    background-color: aquamarine;
 }
    
    
