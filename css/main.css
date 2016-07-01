@@ -2,6 +2,7 @@
 slideshow
 ====*/
 html,body {
+    background-color: cadetblue;
 	margin: 0;
 	padding: 0;
 }
@@ -31,24 +32,8 @@ html,body {
 .slider-wrapper > .slide:first-child {
 	opacity: 1;
 }
-/*======================h===========================*/
-
-
-
-
-.class{
-    width:100%;
-    height: 300px;
-}
-
-}
-body{
-	
-	background-image: url(/img/afric.jpeg);
-    background-size: cover;
-	background-repeat: no-repeat;
-	
-}
+/*======================HEADER===========================*/
+/*heade*/
 h1{
 	margin-left: 500px;
 	padding-top: 100px;
@@ -56,23 +41,24 @@ h1{
 	width: 400px;
 	color: aqua;
 }
-h2{
-	text-align: center;
-	color: yellow;
+/*nav*/
+
 }
+
 .top{
 	border: 1px solid whitesmoke;
 	border-radius: 10px;
-	height: 50px;
-	width: 400px;
+	height: 100px;
+	width: 50%;
 	float: right;
 	margin-top: -50px;
 	padding: 20px;
-	background-color: grey;
-
+	background-color:blueviolet;
+    opacity: 0.7;
+/**/
 }
 .head{
-    background-color: whitesmoke;
+    background-color: skyblue;
     width: 100%;
     height: 200px;
     margin-top: -22px;
@@ -82,13 +68,28 @@ h2{
 #logo{
 	height: 100px;
 	width: 100px;
-    margin-top: -250px;
+    margin-top: -350px;
 
     background: url(/img/th.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
 	
 }
+
+/*================c=========================*/
+.class{
+    width:100%;
+    height: 300px;
+}
+
+
+
+
+h2{
+	text-align: center;
+	color: yellow;
+}
+
 
 .about{
 	border:1px solid whitesmoke;
