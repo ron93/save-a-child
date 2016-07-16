@@ -1,5 +1,5 @@
 body{
-/*    background-color: #24B6A7;*/
+  background-color: #24B6A7;
    
     height: 100%;
 }
@@ -12,8 +12,7 @@ body{
         url(../img/afric.jpeg); 
        background-repeat:no-repeat;
     background-size:   cover;
-       
-    
+ 
     
     height: 21.875em;
     
@@ -49,11 +48,13 @@ h1{
     height: 18.750em;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
-    
+    color: aqua;
 }
 #about p{
     margin: 3%;
+    color: black;
 }
+
 
 /*SLIDER*/
 
@@ -69,12 +70,22 @@ h1{
     height: 25.000em;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
-    
+    color: aqua;
 }
 
 
 
 /*FOOTER*/
 footer{
+    border-top:1px solid aqua;
     height: 12.500em;
+    color: aqua;
+    background-color:  #105C58;
+}
+.bottom{
+    margin-top: 10%;
+}
+
+.bottom a{
+    margin-right: 5%;
 }
