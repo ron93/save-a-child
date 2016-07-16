@@ -1,20 +1,28 @@
 body{
 /*    background-color: #24B6A7;*/
-/*    background-image: url(../img/afric.jpeg) no-repeat cover;*/
+   
     height: 100%;
 }
 
 /*header*/
 
 .head{
+    background-image:
+         linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../img/afric.jpeg); 
+       background-repeat:no-repeat;
+    background-size:   cover;
+       
     
-        background-image: url(../img/afric.jpeg) no-repeat cover;
+    
     height: 21.875em;
     
-   background-color: #105C58;
+   
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
 }
+
+
 
 h1{
     color: aqua;
@@ -63,9 +71,7 @@ h1{
     border-bottom-right-radius: 5%;
     
 }
-input{
-    border-radius: 7%;
-}
+
 
 
 /*FOOTER*/
