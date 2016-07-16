@@ -12,8 +12,18 @@ body{
     border-bottom-right-radius: 50%;
 }
 
+h1{
+    color: aqua;
+}
+
+
 #logo{
     margin-right: 10%;
     float: left;
 }
 
+/*nav*/
+.top a{
+ margin-left: 10%;
+    color: aqua;
+}
