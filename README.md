@@ -1,5 +1,6 @@
 # save-a-child
-save a child foundation website. self assessment
+
+save a child foundation website seeks to connect donors to people in need.
 contains 
 1.home
 2.about
