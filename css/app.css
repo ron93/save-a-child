@@ -60,11 +60,32 @@ h1{
 
 /*SLIDER*/
 
-.slider{
-    height: 12.500em;
+#donate{
+    height: 28em;
     width: 100%;
+    background-color: #105C58;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
+.donate{
+    height: 18em;
+    width: 50%;
+    border: 1px solid #99B2B1;
+    background-color: #99B2B1;
+    margin-left: 25%;
+}
+.donate input{
+    margin-bottom: 3%;
+    
+}
+
+.donate button{
+    height: 4em;
+    width: 20%;
+    border: 1px solid aqua;
+    background-color: aqua;
+}
 
 /*CONTACTS*/
 #contacts{
@@ -72,9 +93,11 @@ h1{
     height: 25.000em;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
+    
+}
+h2{
     color: aqua;
 }
-
 
 
 /*FOOTER*/
@@ -85,9 +108,10 @@ footer{
     background-color:  #105C58;
 }
 .bottom{
-    margin-top: 10%;
+  
 }
 
 .bottom a{
-    margin-right: 5%;
+    margin: 2%;
+   
 }
