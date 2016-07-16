@@ -98,8 +98,10 @@ h1{
 }
 
 .donate div{
-    display: block;
+    display: inline;
 }
+
+
 
 /*CONTACT US*/
 #contacts{
