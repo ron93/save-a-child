@@ -86,7 +86,7 @@ h1{
 }
 
 .donate{
-    height: 18em;
+    height: 22em;
     width: 60%;
     border: 1px solid #99B2B1;
     background-color: #99B2B1;
@@ -97,7 +97,9 @@ h1{
     
 }
 
-
+.donate div{
+    display: block;
+}
 
 /*CONTACT US*/
 #contacts{
@@ -129,4 +131,12 @@ footer{
     margin: 2%;
     color: aqua;
    
+}
+
+/*FONTS*/
+h1,h2{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
 }
