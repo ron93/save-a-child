@@ -17,7 +17,7 @@
 </head>
 <body>
    <div class="row  head">
-   <div class="row">
+   <div class="row" id="home">
   
 <!--    logo-->
 <div id="logo" class="small-2 columns">
@@ -32,6 +32,10 @@
 	
 </header>
        </div>
+       <div class="small-1 columns foot">
+           <a href="#bot">bottom</a>
+              </div>
+       
        </div><!--  end row  -->
        
        
@@ -40,9 +44,9 @@
 <div class="small-12 text-center columns">
 	<nav class="top">
 
-       <a class="nav" href="home">HOME</a>
-       <a class="nav" href="about">ABOUT</a>
-       <a class="nav" href="contacts">CONTACTS</a>
+       <a class="nav" href="#home">HOME</a>
+       <a class="nav" href="#about">ABOUT</a>
+       <a class="nav" href="#contacts">CONTACTS</a>
         
 	</nav>
     </div>
@@ -55,7 +59,7 @@
     
     
 <!--    mid-->
-    <div class="row  about">
+    <div class="row"  id="about">
 <div class="small-12 text-center columns">
 
 <h2 >ABOUT</h2>
@@ -76,7 +80,7 @@
         </div>	
 
 <!--contact-->
-<div class="row">
+<div class="row" id="contacts">
 <div class="small-12 text-center columns contacts">
 <h2>CONTACTS</h2>
 	<form>
@@ -96,11 +100,11 @@
 </div>
     </div>
     
-<footer >
-	<nav class="small-12 columns bottom">
-	<a href="home">HOME</a>
-	<a href="about">ABOUT</a>
-	<a href="contacts">CONTACTS</a>
+<footer id="bot">
+	<nav class="small-12 text-center columns bottom">
+	<a href="#home">HOME</a>
+	<a href="#about">ABOUT</a>
+	<a href="#contacts">CONTACTS</a>
 		
 	</nav>
 </footer>
