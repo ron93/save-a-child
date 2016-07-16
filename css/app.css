@@ -87,7 +87,7 @@ h1{
     background-color: aqua;
 }
 
-/*CONTACTS*/
+/*CONTACT US*/
 #contacts{
     background-color: #105C58;
     height: 25.000em;
@@ -104,7 +104,7 @@ h2{
 footer{
     border-top:1px solid aqua;
     height: 12.500em;
-    color: aqua;
+    color: red;
     background-color:  #105C58;
 }
 .bottom{
@@ -113,5 +113,6 @@ footer{
 
 .bottom a{
     margin: 2%;
+    color: red;
    
 }
