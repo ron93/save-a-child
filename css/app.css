@@ -14,10 +14,12 @@ body{
       rgba(255, 0, 0, 0.45)
     ),
         url(../img/afric.jpeg);
- 
-       background-repeat:no-repeat;
+        
+   background-repeat:no-repeat;
     background-size:   cover;
  
+    background-image: url(../img/overlay.png) repeat;
+     opacity: 1;
  
     
     height: 21.875em;
