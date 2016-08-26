@@ -90,23 +90,26 @@ h1{
 }
 
 .donate{
-/*
+
     height: 22em;
-    width: 80%;
-*/
+/*    width: 80%;*/
+
     border: 1px solid whitesmoke;
     background-color: whitesmoke;
 /*   margin-left: 25%;*/
 }
 .donate input{
     margin-bottom: 3%;
-    
+ 
 }
 
 .donate div{
     display: inline;
 }
-
+.field input{
+    width: 70%;
+    
+}
 
 
 /*CONTACT US*/
