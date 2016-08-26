@@ -1,19 +1,16 @@
-/*=============================================================
-slideshow
-====*/
-html,body {
-    background-color: cadetblue;
-	margin: 0;
-	padding: 0;
-}
 
 /*======================HEADER===========================*/
 /*heade*/
+header h1{
+    padding-left: 100px;
+        text-align: center;
+}
 h1{
 	
 	height: 200px;
-	width: 400px;
+    width: 400px;
 	color: aqua;
+
 }
 /*nav*/
 
@@ -36,7 +33,7 @@ h1{
     padding-right: 80px;
     height: 70px;
     width: 100px;
-    background-color: aquamarine;
+    background-color: black;
 }
 
    

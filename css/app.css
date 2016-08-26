@@ -1,11 +1,15 @@
 body{
   background-color:whitesmoke;
+    
    
    
 }
 
 /*header*/
-
+header h1{
+    text-align: center;
+    padding-left: 100px;
+}
 .head{
  
     background-image:
@@ -32,7 +36,7 @@ body{
 
 
 h1{
-    color: #091313;
+    color:#000000;
 }
 
 
@@ -52,7 +56,7 @@ h1{
 /*nav*/
 .top a{
  margin-left: 10%;
-    color: aqua;
+    color: #000000;
 }
 .top a:hover{
     font-size: 120%;
@@ -62,12 +66,12 @@ h1{
 /*ABOUT*/
 
 #about{
-    background-color:grey;
+    background-color:whitesmoke;
    
     height: 20em;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
-    color: aqua;
+    color: #000000;
 }
 #about p{
     margin: 3%;
@@ -80,17 +84,19 @@ h1{
 #donate{
     height: 28em;
   
-    background-color: grey;
+    background-color: whitesmoke;
     margin-top: 1%;
     margin-bottom: 1%;
 }
 
 .donate{
+/*
     height: 22em;
-    width: 60%;
-    border: 1px solid #99B2B1;
-    background-color: #99B2B1;
-   margin-left: 25%;
+    width: 80%;
+*/
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+/*   margin-left: 25%;*/
 }
 .donate input{
     margin-bottom: 3%;
@@ -106,24 +112,24 @@ h1{
 /*CONTACT US*/
 #contacts{
    
-    background-color: grey;
+    background-color:whitesmoke;
     height: 25.000em;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
     
 }
 h2{
-    color: aqua;
+    color: #000000;
 }
 
 
 /*FOOTER*/
 footer{
     
-    border-top:1px solid grey;
+    border-top:1px solid whitesmoke;
     height: 12.500em;
-    color: aqua;
-    background-color:  grey;
+    color: #000000;
+    background-color:  whitesmoke;
 }
 .bottom{
   
@@ -131,7 +137,7 @@ footer{
 
 .bottom a{
     margin: 2%;
-    color: aqua;
+    color: #000000;
    
 }
 
