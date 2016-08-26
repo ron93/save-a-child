@@ -110,7 +110,9 @@ h1{
     width: 70%;
     
 }
-
+.pay input{
+    margin-left: 20px;
+}
 
 /*CONTACT US*/
 #contacts{
