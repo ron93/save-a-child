@@ -123,6 +123,13 @@ h1{
     border-bottom-right-radius: 5%;
     
 }
+.talk input,.talk textarea{
+    width: 400px;;
+    display: inline;
+}
+#submit{
+    width: 80px;
+}
 h2{
     color: #000000;
 }
