@@ -1,5 +1,5 @@
 body{
-  background-color: #24B6A7;
+  background-color:whitesmoke;
    
    
 }
@@ -10,7 +10,7 @@ body{
  
     background-image:
          linear-gradient(
-      rgba(0, 255, 255, 0.4), 
+       rgba(251,158,142,1),
       rgba(0, 255, 255, 0.4)
     ),
         url(../img/afric.jpeg);
@@ -45,7 +45,7 @@ h1{
     width: 5em;
 }
 .foot{
-    color: aqua;
+    color: grey;
 }
 
 
@@ -62,7 +62,7 @@ h1{
 /*ABOUT*/
 
 #about{
-    background-color: #105C58;
+    background-color:grey;
    
     height: 20em;
     border-top-left-radius: 10%;
@@ -80,7 +80,7 @@ h1{
 #donate{
     height: 28em;
   
-    background-color: #105C58;
+    background-color: grey;
     margin-top: 1%;
     margin-bottom: 1%;
 }
@@ -106,7 +106,7 @@ h1{
 /*CONTACT US*/
 #contacts{
    
-    background-color: #105C58;
+    background-color: grey;
     height: 25.000em;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
@@ -120,10 +120,10 @@ h2{
 /*FOOTER*/
 footer{
     
-    border-top:1px solid aqua;
+    border-top:1px solid grey;
     height: 12.500em;
     color: aqua;
-    background-color:  #105C58;
+    background-color:  grey;
 }
 .bottom{
   
