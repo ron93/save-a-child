@@ -2,9 +2,12 @@
 body{
   
     background: red;
+    width: 100%;
 }
 
-
+.container{
+    
+}
 
 /*header*/
 #head{
@@ -57,4 +60,11 @@ figure{
 }
 
 /*FOOTER*/
-
+#foot{
+    height: 25vh;
+}
+#foot .columns{
+    border-left: 1px solid white;
+    height: 20vh;
+    
+}
