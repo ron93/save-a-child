@@ -10,12 +10,23 @@ body{
 }
 
 /*header*/
+header{
+    padding: 1em;
+    background: green;
+    border-radius: 5px;
+}
+h1{
+    font-size: 1em;
+    color: black;
+}
 #head{
-    height: 10vh;
-    background: yellow;
+   
+}
+.title-bar {
+    background:#FFFAFA; 
 }
 #top{
-    background: green;
+    background:;
     height: 70vh;
     
 }
