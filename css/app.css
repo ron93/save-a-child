@@ -1,8 +1,9 @@
 /*body*/
 body{
   
- background: brown;
+ background:;
     width: 100%;
+    color: black;
 }
 
 .container{
@@ -12,18 +13,19 @@ body{
 /*header*/
 header{
     padding: 1em;
-    background: green;
+    background: #F0F8FF;
     border-radius: 5px;
+    height: 11vh;
 }
 h1{
     font-size: 1em;
-    color: black;
+   color: black
 }
 #head{
   
 }
 .title-bar {
-    background:#FFFAFA; 
+    background: whitesmoke; 
     
 }
 #top {
@@ -43,12 +45,12 @@ h1{
 
 button{
   position: absolute; 
-    margin-top: 35vh;
+    margin-top: 67vh;
   
     font-size: 1.5em;
 }
 button{
-    background: green;
+    background:#F0F8FF;
     height: 12vh;
     width: 15vw;
     margin-left: 43%;
@@ -61,19 +63,34 @@ button{
 /*CONTENT*/
 
 /*mid*/
-
+h2{
+    margin: 5px;
+}
 #mid{
   height: 120vh;  
 }
 
 #mid .columns{
     height: 60vh;
+   
     
 }
-
-#mid .same{
-    background: green;
+#mid img{
     
+}
+#mid .same{
+    background:#F0F8FF;
+    
+}
+#mid .about{
+    border-left: 1px solid black;
+    height: 40vh;
+    margin-left: 6vw;
+}
+#mid .test{
+    border-left: 1px solid black;
+    height: 40vh;
+    margin-left: 15vh;
 }
 
 /*the team*/
@@ -81,7 +98,7 @@ button{
 #team{
    padding-right: 6vw;
     height: 130vh;
-    background: white;
+    background: whitesmoke;
 }
 
 .pic-one{
@@ -97,13 +114,15 @@ figure img{
 
 /*FOOTER*/
 #foot{
+    
     height: 25vh;
 }
 #foot .columns{
-    border-left: 1px solid white;
+    margin-top: 3vh;
+    border-left: 1px solid black;
     height: 20vh;
     
 }
 #foot .follow{
-    border-right: 1px solid white;
+    border-right: 1px solid black;
 }
