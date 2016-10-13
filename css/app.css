@@ -52,7 +52,7 @@ body{
     padding-top: 3vh;
     
 }
-figure{
+figure img{
     height: 50vh;
    width: 30vw;
     background: red;
@@ -67,4 +67,7 @@ figure{
     border-left: 1px solid white;
     height: 20vh;
     
+}
+#foot .follow{
+    border-right: 1px solid white;
 }
