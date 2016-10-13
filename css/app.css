@@ -1,162 +1,38 @@
+/*body*/
 body{
-  background-color:whitesmoke;
-    
-   
-   
+    height: 100vh;
+    background: red;
 }
+
+
 
 /*header*/
-header h1{
-    text-align: center;
-    padding-left: 100px;
+#head{
+    height: 10vh;
+    background: yellow;
 }
-.head{
- 
-    background-image:
-         linear-gradient(
-       rgba(251,158,142,1),
-      rgba(0, 255, 255, 0.4)
-    ),
-        url(../img/afric.jpeg);
-        
-   background-repeat:no-repeat;
-    background-size:   cover;
- 
-    background-image: url(../img/overlay.png) repeat;
-     opacity: 1;
- 
-    
-    height: 21.875em;
-    
-   
-    border-bottom-left-radius: 30%;
-    border-bottom-right-radius: 30%;
-}
-
-
-
-h1{
-    color:#000000;
-}
-
-
-#logo{
-    margin-left: 1px;
-   
-}
-#logo img{
-    height: 4em;
-    width: 5em;
-}
-.foot{
-    color: grey;
-}
-
-
-/*nav*/
-.top a{
- margin-left: 10%;
-    color: #000000;
-}
-.top a:hover{
-    font-size: 120%;
-    color: #233B3B;
-}
-
-/*ABOUT*/
-
-#about{
-    background-color:whitesmoke;
-   
-    height: 20em;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    color: #000000;
-}
-#about p{
-    margin: 3%;
-    color: black;
-}
-
-
-/*DONATE*/
-
-#donate{
-    height: 28em;
-  
-    background-color: whitesmoke;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-.donate{
-
-    height: 22em;
-/*    width: 80%;*/
-
-    border: 1px solid whitesmoke;
-    background-color: whitesmoke;
-/*   margin-left: 25%;*/
-}
-.donate input{
-    margin-bottom: 3%;
- 
-}
-
-.donate div{
-    display: inline;
-}
-.field input{
-    width: 70%;
+#top{
+    background: green;
+    height: 70vh;
     
 }
-.pay input{
-    margin-left: 20px;
+
+
+
+
+/*CONTENT*/
+
+/*mid*/
+#mid{
+  height: 100vh;  
 }
 
-/*CONTACT US*/
-#contacts{
-   
-    background-color:whitesmoke;
-    height: 25.000em;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
+#mid .columns{
+    height: 50vh;
     
 }
-.talk input,.talk textarea{
-    width: 400px;;
-    display: inline;
-}
-#submit{
-    width: 80px;
-}
-h2{
-    color: #000000;
-}
 
-
-/*FOOTER*/
-footer{
+#mid .same{
+    background: black;
     
-    border-top:1px solid whitesmoke;
-    height: 12.500em;
-    color: #000000;
-    background-color:  whitesmoke;
-}
-.bottom{
-  
-}
-
-.bottom a{
-    margin: 2%;
-    color: #000000;
-   
-}
-
-/*FONTS*/
-h1,h2{
-    font-family: 'Roboto', sans-serif;
-}
-body{
-    font-family: 'Montserrat', sans-serif;
 }
