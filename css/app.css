@@ -1,7 +1,7 @@
 /*body*/
 body{
   
-    background: red;
+ background: brown;
     width: 100%;
 }
 
@@ -20,15 +20,39 @@ h1{
     color: black;
 }
 #head{
-   
+  
 }
 .title-bar {
     background:#FFFAFA; 
-}
-#top{
-    background:;
-    height: 70vh;
     
+}
+#top {
+ background-image: url(../img/help.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    
+}
+/*
+#top img{
+     position: relative;
+    height: 130vh;
+    width: 100%;
+
+}
+*/
+
+button{
+  position: absolute; 
+    margin-top: 35vh;
+  
+    font-size: 1.5em;
+}
+button{
+    background: green;
+    height: 12vh;
+    width: 15vw;
+    margin-left: 43%;
+    border-radius: 5px;
 }
 
 
@@ -37,6 +61,7 @@ h1{
 /*CONTENT*/
 
 /*mid*/
+
 #mid{
   height: 120vh;  
 }
@@ -47,7 +72,7 @@ h1{
 }
 
 #mid .same{
-    background: black;
+    background: green;
     
 }
 
