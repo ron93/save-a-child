@@ -1,6 +1,6 @@
 /*body*/
 body{
-    height: 100vh;
+  
     background: red;
 }
 
@@ -24,11 +24,11 @@ body{
 
 /*mid*/
 #mid{
-  height: 100vh;  
+  height: 120vh;  
 }
 
 #mid .columns{
-    height: 50vh;
+    height: 60vh;
     
 }
 
@@ -36,3 +36,25 @@ body{
     background: black;
     
 }
+
+/*the team*/
+
+#team{
+   padding-right: 6vw;
+    height: 130vh;
+    background: white;
+}
+
+.pic-one{
+    padding-top: 3vh;
+    
+}
+figure{
+    height: 50vh;
+   width: 30vw;
+    background: red;
+    text-align: center;
+}
+
+/*FOOTER*/
+
